@@ -4198,3 +4198,17 @@ html body #inner {
   max-width: 1100px !important;
   margin: 0 auto !important;
 }
+
+html body #main .navigation .current::after,
+html body #main span.current::after {
+  content: "" !important;
+  display: inline-block !important;
+  width: 20px !important;
+  height: 20px !important;
+  background-image: url("https://64.media.tumblr.com/6e0ac4a7cf87a422261ddf131173303c/7e1889fbec4b938d-37/s400x600/c612f526ead0e83464ad0d79b2ceefe9ffa4ba4c.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  margin-left: 8px !important;
+  vertical-align: middle !important;
+}
